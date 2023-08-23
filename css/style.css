@@ -13,6 +13,11 @@ body{
     src: url(../fonts/Lato-Thin.ttf);
 }
 
+@font-face {
+    font-family: latoBold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
 .main-container{
     width: 1400px;
     
@@ -32,18 +37,20 @@ body{
 
 .header-button{
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px;
+    width: 150px;
+    height: 50px;
 
 
-    font-size: 21px;
-letter-spacing: -1px;
-color: #232323;
-font-weight: 900;
-font-family: 'lato';
-text-align: center;
-padding: 20px 50px;
-background-color: antiquewhite;
-border: 2px solid black;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #232323;
+    font-weight: 600;
+    font-family: 'lato';
+    background-color: black;
+    color: wheat;
     
 }
 
@@ -68,4 +75,90 @@ font-family: 'lato';
     text-decoration: none;
     color: black;
 }
+
+.main-content{
+    display: grid;
+    grid-column: 1fr 1fr;
+    gap: 119px;
+    margin-top: 103px;
+}
+
+
+
+.item1{
+    grid-column: 1/2;
+    
+
+}
+
+.item2{
+    grid-column: 2/3;
+
+}
+
+h1{
+font-size: 81px;
+letter-spacing: -2px;
+line-height: 81px;
+color: #232323;
+font-weight: 900;
+font-family: 'lato';
+margin-right: 51px;
+margin-top: 20px;
+
+}
+
+p{
+
+
+font-size: 17px;
+letter-spacing: 0px;
+color: #232323;
+font-weight: 600;
+font-family: 'lato';
+margin-right: 51px;
+margin-top: 10px;
+
+}
+
+img{
+    
+}
+
+.button-black{
+    width: 150px;
+    height: 50px;
+    
+
+
+font-size: 17px;
+letter-spacing: 0px;
+color: #232323;
+font-weight: 600;
+font-family: 'lato';
+background-color: black;
+color: wheat;
+margin-top: 25px;
+}
+
+span {
+    font-family: 'latoBold';
+}
+
+.design img{
+    width: 500px;
+    height: 450px;
+
+    position: absolute;
+    top: -300px;
+    left: -200px;
+}
+
+.design{
+    position: relative;
+}
+
+
+
+
 

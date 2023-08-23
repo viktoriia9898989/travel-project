@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 1400px;
+}
+.content-container{
+    width: 1200px;
+}
+
